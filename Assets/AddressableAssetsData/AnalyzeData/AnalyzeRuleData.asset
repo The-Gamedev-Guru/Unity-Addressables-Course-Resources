@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc77607c2a62ef48b8f7dec55cc6d91, type: 3}
+  m_Name: AnalyzeRuleData
+  m_EditorClassIdentifier: 
+  m_RuleToResults:
+  - RuleName: Check Duplicate Bundle Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Check Resources to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Check Resources to Addressable Duplicate Dependencies - No issues
+        found.
+      m_Severity: 0
+  - RuleName: Check Scene to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Prefabs/Jigsaw.prefab
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Packed Assets:Assets/Music/temple_of_love-sisters_of_mercy.wav
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Models/Jigsaw.fbx
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+      m_Severity: 2
+    - m_ResultName: Assets/Scenes/AddressablesPlayground.unity:Default Local Group:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+      m_Severity: 2
+  - RuleName: Check Sprite Atlas to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Build Bundle Layout
+    Results:
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Explicit:Assets/Music/Game-Over.wav
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Explicit:Assets/Music/Boss-Battle.wav
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Explicit:Assets/Music/Intro-Soundtrack.wav
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Explicit:Assets/Music/Bobs-Theme.wav
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Explicit:Assets/ExampleAssets/Prefabs/Jigsaw.prefab
+      m_Severity: 0
+    - m_ResultName: dbcf465a790780369f83eb8a5ddb7c0c_assets_all.bundle:Explicit:Assets/Music/temple_of_love-sisters_of_mercy.wav
+      m_Severity: 0
+    - m_ResultName: 142e00ba7c2a18e166aabdf925e9e35a_assets_earlygameplay.bundle:Explicit:Assets/Videos/VideoSequence01.mp4
+      m_Severity: 0
+    - m_ResultName: 142e00ba7c2a18e166aabdf925e9e35a_assets_gameplay.bundle:Explicit:Assets/Videos/VideoSequence03.mp4
+      m_Severity: 0
+    - m_ResultName: 142e00ba7c2a18e166aabdf925e9e35a_assets_gameplay.bundle:Explicit:Assets/Videos/VideoSequence02.mp4
+      m_Severity: 0
+    - m_ResultName: 142e00ba7c2a18e166aabdf925e9e35a_assets_intro.bundle:Explicit:Assets/Videos/VideoTrailer.mp4
+      m_Severity: 0
+    - m_ResultName: cf9073f91daf16c942f84c750ce940c0_assets_all.bundle:Explicit:Assets/ExampleAssets/ExplosiveRealFree/Example/ExplosionA.prefab
+      m_Severity: 0
+    - m_ResultName: fceab3946a7be266b26d87d917b19260_assets_all.bundle:Explicit:Assets/ExampleAssets/ExplosiveRealFree/Example/ExplosionB.prefab
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Models/Jigsaw.fbx
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+      m_Severity: 0
+    - m_ResultName: b58d1166a2f5aaf4777c4ee16118a876_assets_all.bundle:Implicit:Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+      m_Severity: 0
+    - m_ResultName: cf9073f91daf16c942f84c750ce940c0_assets_all.bundle:Implicit:Assets/ExampleAssets/ExplosiveRealFree/Materials/sprite_realExplosion_c.mat
+      m_Severity: 0
+    - m_ResultName: cf9073f91daf16c942f84c750ce940c0_assets_all.bundle:Implicit:Assets/ExampleAssets/ExplosiveRealFree/sprite_realExplosion_c.png
+      m_Severity: 0
+    - m_ResultName: fceab3946a7be266b26d87d917b19260_assets_all.bundle:Implicit:Assets/ExampleAssets/ExplosiveRealFree/Materials/sprite_realExplosion_c.mat
+      m_Severity: 0
+    - m_ResultName: fceab3946a7be266b26d87d917b19260_assets_all.bundle:Implicit:Assets/ExampleAssets/ExplosiveRealFree/sprite_realExplosion_c.png
+      m_Severity: 0
+  - RuleName: UnityEditor.AddressableAssets.Build.AnalyzeRules.AnalyzeRule
+    Results: []
+  - RuleName: CheckAddressableStandards
+    Results:
+    - m_ResultName: Video 'videosequence01' should not be compressed
+      m_Severity: 0
+    - m_ResultName: Video 'videosequence03' should not be compressed
+      m_Severity: 0
+    - m_ResultName: Video 'videosequence02' should not be compressed
+      m_Severity: 0
+    - m_ResultName: Video 'videotrailer' should not be compressed
+      m_Severity: 0
+  - RuleName: CheckVideoCompression
+    Results:
+    - m_ResultName: Video' 'videosequence01' should not be in compressed asset bundle
+      m_Severity: 0
+    - m_ResultName: Video' 'videosequence03' should not be in compressed asset bundle
+      m_Severity: 0
+    - m_ResultName: Video' 'videosequence02' should not be in compressed asset bundle
+      m_Severity: 0
+    - m_ResultName: Video' 'videotrailer' should not be in compressed asset bundle
+      m_Severity: 0
+  - RuleName: CheckVideoPath
+    Results:
+    - m_ResultName: Video 'videosequence01' should be within a Videos directory
+      m_Severity: 0
+    - m_ResultName: Video 'videosequence03' should be within a Videos directory
+      m_Severity: 0
+    - m_ResultName: Video 'videosequence02' should be within a Videos directory
+      m_Severity: 0
+    - m_ResultName: Video 'videotrailer' should be within a Videos directory
+      m_Severity: 0
+  - RuleName: CheckVideoLabel
+    Results:
+    - m_ResultName: Video 'videosequence03' should have a Video label
+      m_Severity: 0
+  - RuleName: CheckPrefabAddress
+    Results:
+    - m_ResultName: Video 'JigsawPrefab' should have address 'Jigsaw'
+      m_Severity: 0
