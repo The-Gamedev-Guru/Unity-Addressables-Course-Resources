@@ -21,6 +21,14 @@ MonoBehaviour:
     m_Address: JsonTestFile
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 2e7dcf7225fef4143a0ae5ebce409d85
+    m_Address: SoldierPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f43bf5488a7443d19ab2a83c6b91f35
+    m_Address: TankPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e6eefb6769c4c88469d130c49c2b7b2e, type: 2}
   m_SchemaSet:
